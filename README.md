@@ -22,5 +22,5 @@ We thank the Mario Figueiredo for allowing us to include this file in our packag
 
 The package was tested on Matlab 2009b, but should work on most Matlab versions. In case one performs very large scale experiments, it is recommended to compile the GPSR file.  This may be simply done by the Matlab compiler toolbox.  If this toolbox is unavailable at your local Matlab installation, please send us an email stating the operating system, and we will send a compiled version. 
 
-Please send any comments/bug reports to: Noam Shental, shental@openu.ac.il
+Please send any comments/bug reports to: Noam Shental, shental@openu.ac.il or 
                                          Or Zuk, orzuk@ttic.edu
