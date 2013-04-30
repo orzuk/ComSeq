@@ -1,0 +1,161 @@
+<!--#include virtual="/includes/starthtml.html" -->
+
+<!-- EDITABLE: Your section title and and realted meta data-->
+<title>ComSeq - Broad</title>
+
+<meta name="description" content="A History of Broad Institute" />
+<meta name="keywords" content="Broad Institute of MIT and Harvard, history, Genome Center, Whitehead Institute/MIT Center for Genome Research, Human Genome Project, Eric Lander, Institute of Chemistry and Cell Biology, Stuart Schreiber, Initiative for Chemical Genetics, Harvard University, Harvard medical School, MIT, Massachusetts Institute of Technology, Human Genome Project" />
+<!-- ENDOF EDITABLE-->
+
+
+<!--#include virtual="/includes/general.html" -->
+<!--#include virtual="/includes/topbanner.html" -->
+
+
+<!-- EDITABLE: shoudl point to the navigation related to your section of the 
+website. Contact webmaster@broad.mit.edu to create navigation
+-->
+<!--#include virtual="/includes/nav.html" -->
+<!-- ENDOF EDITABLE-->
+
+
+
+<!-- BEGIN Breadcrumb and Content -->
+<div id="breadcrumbs">
+
+<!-- EDITABLE: edit breadcrubms to reflect file locations -->
+<a href="/index.html">Home</a> &gt; ComSeq
+<!-- ENDOF EDITABLE-->
+
+</div>
+<div id="content">
+
+<!-- EDITABLE: The page title -->
+<h1>ComSeq </h1>
+<!-- ENDOF EDITABLE-->
+
+
+<!-- EDITABLE: page content-->
+
+<H2>Overview </H2>
+<p>
+ComSeq is a set of utilities used for simulating and analyzing compressed-sensing pooling design 
+experiments for next-generation sequencing projects whose purpose is to detect rare allele carriers in a population. 
+The package enables an in-silico simulation of a sequencing pooling experiments, including 
+modeling of sequencing error parameters. The package also enables reconstructing genotypes of 
+individuals profiled in the pools. Detailed instructions and usage examples are given in the README file 
+</p>
+<!-- ENDOF EDITABLE-->
+
+
+<P align="center"><IMG src="comseq.jpg" alt="SiPhy Data" width="400" height="400" border="0"></P>
+
+<H2>About </H2>
+<p>
+ComSeq is a collaboration between the Broad Institute, the <A &nbsp;  href="http://www.openu.ac.il/home/shental/ "> 
+Open University of Israel </A>, and the Weizmann Institute of Science.
+If you use the package please cite the following paper: <br>
+<i>Rare-Allele Detection Using Compressed Se(que)nsing, N. Shental, A. Amir and O. Zuk (2010) </i> <br>
+
+
+</p>
+
+
+<H2>ComSeq Installation </H2>
+<p>
+ComSeq is composed from a set of matlab functions which can be individually used. 
+You can download the whole package, or individual functions below.
+To install the package simply download the file cs_snps.tgz to a directory of 
+your choice, extract it, and add to your Matlab path. 
+The package uses the GPSR algorithnm, which is available through 
+<A &nbsp;  href="http://www.lx.it.pt/~mtf/GPSR/"> here </A>. 
+In addition, a pre-compiled script for linux/windwos is supplied below.
+</p>
+
+<H2>Contact </H2>
+<p>
+For any questions or comments, please contact <A &nbsp;  href="mailto:shental@openu.ac.il"> 
+Noam Shental </A> or <A &nbsp;  href="mailto:orzuk@broadinstitute.org"> 
+Or Zuk </A>
+</p>
+
+
+    <TABLE summary="M-file index" border="0" cellpadding="0" cellspacing="0">
+      <TBODY><TR>
+<tr>
+<td><a href="applyGPSR.m" name="applyGPSR" id="applyGPSR">applyGPSR.m</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>Runs the GPSR algorithm - using the default parameters.</td>
+</tr>
+<tr>
+<td><a href="displaySimulationParameters.m" name="displaySimulationParameters" id="displaySimulationParameters">displaySimulationParameters.m</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>Prints the parameters used for simulations</td>
+</tr>
+<tr>
+<td><a href="modifySolution.m" name="modifySolution" id="modifySolution">modifySolution.m</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>Discretize solution: find rounded solution with minimal squared error with respect to measurements</td>
+</tr>
+<tr>
+<td><a href="normalizeRows.m" name="normalizeRows" id="normalizeRows">normalizeRows.m</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>Normalize matrix rows </td>
+</tr>
+<tr>
+<td><a href="num_lanes_to_max_N.m" name="num_lanes_to_max_N" id="num_lanes_to_max_N">num_lanes_to_max_N.m</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>Compute the maximal sample size we can reconstruct for a given number of lanes</td>
+</tr>
+<tr>
+<td><a href="pooling_example.m" name="pooling_example" id="pooling_example">pooling_example.m</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>Simulate a single case of carriers reconstruction</td>
+</tr>
+<tr>
+<td><a href="simulateCSseq.m" name="simulateCSseq" id="simulateCSseq">simulateCSseq.m</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>Simulate and reconstruct a genotype vector in a specific setting.</td>
+</tr>
+<tr>
+<td><a href="README.txt" name="README.t" id="README.t"><font color="003300">README.txt</a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td>	Documentation on the ComSeq package </td>
+</tr>
+<tr>
+<td><a href="comseq.tgz" name="comseq" id="comseq"><STRONG><i>comseq.tgz</i></STRONG></a></td>
+
+<td>&nbsp;-&nbsp;</td>
+
+<td><b><i>Download the whole package. (7 .m files) </i></b></td>
+</tr>
+      <TR>
+    </TR></TBODY></TABLE><!-- End m-file index -->
+
+
+
+</div>
+<!-- END Content -->
+
+<!--#include virtual="/includes/quicklinks.html" -->
+
+
+<!--#include virtual="/includes/footer.html" -->
+<!--#include virtual="/includes/endhtml.html" -->
+
